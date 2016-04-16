@@ -62,7 +62,7 @@
 
     //4、实现自动轮播
     //->记录的是步长(当前是哪一张图片,零是第一张图片)
-    var step = 0, interval = 1000, autoTimer = null;
+    var step = 0, interval = 2000, autoTimer = null;
     autoTimer = window.setInterval(autoMove, interval);
     function autoMove() {
         if (step >= (count - 1)) {
